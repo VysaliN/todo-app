@@ -1,0 +1,25 @@
+.TodoInput input {
+  width: 500px;
+  border: 2px solid #e69d59;
+  background: #fcf9f9;
+  padding: 10px;
+  font-size: medium;
+  outline: none;
+}
+.TodoInput button {
+  width: 75px;
+  background: rgb(226, 130, 39);
+  color: rgb(252, 248, 248);
+  padding: 10px;
+  font-weight: bold;
+  margin-left: 5px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.TodoInput button:hover {
+  background: rgb(196, 106, 4);
+}
+h1 {
+  color: rgb(189, 36, 36);
+}

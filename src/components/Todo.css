@@ -1,0 +1,48 @@
+.Todo {
+  display: flex;
+  margin: 0 20px 10px;
+  margin-right: 55px;
+  padding: 10px;
+  height: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background: #a760ff;
+}
+.Todo-task {
+  position: relative;
+  cursor: pointer;
+}
+.Todo.completed {
+  text-decoration: line-through;
+  background-color: rgba(16, 150, 16, 0.788);
+  opacity: 0.5;
+  text-decoration-color: rgb(248, 245, 247);
+}
+
+.Todo-buttons {
+  flex-shrink: 0;
+}
+
+.Todo-buttons button {
+  border: none;
+  margin: 0.4em;
+  background: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+input {
+  outline: none;
+}
+.save {
+  background-color: rgb(219, 142, 42);
+  margin-left: 5px;
+  border: none;
+  padding: 3px;
+  color: white;
+  width: 50px;
+  font-weight: bold;
+}
+.save:hover {
+  background-color: rgb(190, 114, 15);
+}
